@@ -73,16 +73,17 @@ label > i {
     transform: rotate(180deg);
 }
 
-/* .line {
+.line {
     font-size: 1.3rem;
-}  */
+    letter-spacing: 0.5rem;
+}
 
 .line::before {
     content: "";
     width: 4px;
     height: 100%;
     position: absolute;
-    left: 37%;
+    left: 24%;
     background: var(--color-orange);
 }
 
@@ -165,6 +166,17 @@ label > i {
     color: white;
     border: none;
     
+}
+
+.title {
+        text-align: center;
+        margin-bottom: 3rem;
+        
+}
+
+.title span {
+    border-bottom: 10px solid var(--color-orange);
+
 }
 
 .right {
@@ -251,10 +263,10 @@ label > i {
 }
 
 .project .project-container {
-    /* grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));*/
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     gap: 3rem;
 
-    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(2, 1fr); */
 
 }
 
@@ -265,10 +277,63 @@ label > i {
 
 }
 
-.project-card .top {
+.project-card .bottom > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.project-card .bottom i {
+    font-size: 4rem;
+    padding: 4rem;
 }
 
 .project-card .top img {
     width: 100%;
+}
+
+/* ---------about -------- */
+.about {
+    background: rgb(165, 165, 255);
+    padding: 7rem 0; 
+}
+
+.about content {
+    margin-top: 3rem;
+}
+
+.about-content .myImg {
+    width: 60%;
+    justify-content: center;
+}
+
+.about-content .myImg img {
+    min-width: 350px;
+    max-width: 400px;
+}
+
+.about-content .my-bio .h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.my-bio p:nth-child(4) {
+    font-weight: bolder;
+    font-style: 1.3rem;
+    padding: 1rem 0;
+}
+
+.my-bio .tag {
+    font-weight: bolder;
+    font-style: 1.3rem;
+}
+
+.my-bio .tag + div span {
+    padding: 0.8rem 1.2rem;
+    border-radius: 5px;
+}
+
+.my-bio .tag + div span:hover {
+    cursor: pointer;
+    background: gray;
 }
