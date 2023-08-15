@@ -218,3 +218,25 @@ label > i {
 .banner .info-content p {
     color: var(--color-orange);
 }
+
+.skills {
+    margin-top: 7rem;
+    padding: 2rem;
+    font-size: 2rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+}
+
+.skills .icon-skill {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .icon-skill .icon-container i {
+    font-size: 7rem;
+}
+
+
