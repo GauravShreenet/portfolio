@@ -239,4 +239,36 @@ label > i {
     font-size: 7rem;
 }
 
+/* ------------ project ------------- */
+.project {
+    margin-top: 3rem;
+    padding: 7rem 0;
+}
 
+.project h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.project .project-container {
+    /* grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));*/
+    gap: 3rem;
+
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.project-card {
+    box-shadow: -1px 4px 10px 8px rgba(101, 101, 101, 0.244);
+    border-radius: 5px;
+    padding-bottom: 2rem;
+
+}
+
+.project-card .top {
+
+}
+
+.project-card .top img {
+    width: 100%;
+}
