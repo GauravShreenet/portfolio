@@ -337,3 +337,35 @@ label > i {
     cursor: pointer;
     background: gray;
 }
+
+.getin .button_container {
+    justify-content: center;
+}
+
+.getin button {
+    background: var(--dark-bg);
+    padding: 1.5rem 12.5rem;
+    border-radius: 100px;
+    color: white;
+    border: none;
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.getin button i {
+    padding-left: 5rem;
+    color: var(--color-orange)
+}
+
+footer {
+    background: var(--border-color);
+    color: var(--dark-text-color);
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 0;
+    margin-top: 0.5rem;
+
+
+}
