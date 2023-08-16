@@ -354,7 +354,10 @@ label > i {
     align-items: center;
 }
 
-
+.getin button i {
+    padding-left: 5rem;
+    color: var(--color-orange)
+}
 
 .links .title{
     justify-content: space-between;
