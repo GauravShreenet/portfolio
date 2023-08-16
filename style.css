@@ -342,6 +342,18 @@ label > i {
     justify-content: center;
 }
 
+.getin button {
+    background: var(--dark-bg);
+    padding: 1.5rem 12.5rem;
+    border-radius: 100px;
+    color: white;
+    border: none;
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 
 .links .title{
