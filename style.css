@@ -342,21 +342,10 @@ label > i {
     justify-content: center;
 }
 
-.getin button {
-    background: var(--dark-bg);
-    padding: 1.5rem 12.5rem;
-    border-radius: 100px;
-    color: white;
-    border: none;
-    font-size: 3rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-.getin button i {
-    padding-left: 5rem;
-    color: var(--color-orange)
+
+.links .title{
+    justify-content: space-between;
 }
 
 footer {
