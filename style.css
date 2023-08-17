@@ -359,12 +359,16 @@ label > i {
     color: var(--color-orange)
 }
 
+.links {
+    background: #2a2a2a;
+    position: relative;
+}
 
 .alllinks {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3rem 35vw;
+    padding: 3rem 30vw;
     margin-top: 4rem;
     background: #2a2a2a;
     color: var(--dark-text-color);
@@ -382,6 +386,20 @@ label > i {
     align-items: flex-start;
     margin-left: -30px;
     margin-bottom: 5px;
+}
+
+.scroll-up {
+    position: absolute;
+    right: 5rem;
+    bottom: 11rem;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    background: var(--color-orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 9rem;
 }
 
 footer {
