@@ -36,10 +36,14 @@ a {
     --body-bg: #fff;
     --text-color: var(var(--color-dark));
     --border-color: var(--color-dark);
+    --button-bg: var(--color-dark);
+    --button-text: #fff;
 
     --dark-bg: var(--color-dark);
     --dark-text-color: #fff;
     --dark-border-color: #fff;
+    --dark-button-bg: #fff;
+    --dark-button-text: var(--color-dark);
 }
 
 
@@ -124,6 +128,8 @@ label > i {
     --text-color: var(--dark-text-color);
     /* color: var(--dark-text-color); */
     --border-color: var(--dark-border-color);
+    --button-bg: var(--dark-button-bg);
+    --button-text: var(--dark-button-text);
 }
 
 /* hero section */
@@ -160,10 +166,10 @@ label > i {
 }
 
 .left button {
-    background: var(--dark-bg);
+    background: var(--button-bg);
     padding: 0.8rem 2.5rem;
     border-radius: 2rem;
-    color: white;
+    color: var(--button-text);
     border: none;
     
 }
@@ -343,10 +349,10 @@ label > i {
 }
 
 .getin button {
-    background: var(--dark-bg);
+    background: var(--button-bg);
     padding: 1.5rem 12.5rem;
     border-radius: 100px;
-    color: white;
+    color: var(--button-text);
     border: none;
     font-size: 3rem;
     display: flex;
