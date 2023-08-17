@@ -359,7 +359,8 @@ label > i {
     color: var(--color-orange)
 }
 
-.links {
+
+.alllinks {
     display: flex;
     justify-content: space-between;
     align-items: center;
