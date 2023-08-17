@@ -359,8 +359,26 @@ label > i {
     color: var(--color-orange)
 }
 
-.links .title{
+.links {
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 0 30vw;
+    margin-top: 4rem;
+}
+
+.links-list {
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;  
+}
+
+.links-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: -30px;
+    margin-bottom: 5px;
 }
 
 footer {
@@ -369,7 +387,6 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 0.8rem 0;
-    margin-top: 0.5rem;
 
 
 }
