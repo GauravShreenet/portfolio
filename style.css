@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -360,6 +364,10 @@ label > i {
     align-items: center;
 }
 
+.getin button:hover {
+    cursor: pointer;
+}
+
 .getin button i {
     padding-left: 5rem;
     color: var(--color-orange)
@@ -394,18 +402,24 @@ label > i {
     margin-bottom: 5px;
 }
 
+.links-list li:hover {
+    color: rgb(44, 159, 247);
+    cursor: pointer;
+}
+
 .scroll-up {
-    position: absolute;
+    position: fixed;
     right: 5rem;
-    bottom: 11rem;
-    height: 10rem;
-    width: 10rem;
+    bottom: 8rem;
+    height: 8rem;
+    width: 8rem;
     border-radius: 50%;
     background: var(--color-orange);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 9rem;
+    font-size: 7rem;
+    
 }
 
 footer {
@@ -416,4 +430,8 @@ footer {
     padding: 0.8rem 0;
     margin-top: 1rem;
 
+}
+
+@media (max-width: 768px) {
+    
 }
