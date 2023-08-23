@@ -312,17 +312,17 @@ label > i {
     margin-top: 3rem;
 }
 
-.about-content .myImg {
+.about .myImg {
     width: 60%;
     justify-content: center;
 }
 
-.about-content .myImg img {
+.about .myImg img {
     min-width: 350px;
     max-width: 400px;
 }
 
-.about-content .my-bio .h2 {
+.about .my-bio .h2 {
     font-size: 2rem;
     margin-bottom: 3rem;
 }
@@ -354,13 +354,12 @@ label > i {
 
 .getin .button_container a {
     background: var(--button-bg);
-    padding: 1.5vw 8vw;
+    padding: 1.5rem 15vw;
     border-radius: 100px;
     color: var(--button-text);
     border: none;
-    font-size: 3rem;
-    display: flex;
-    justify-content: space-between;
+    font-size: 3vh;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -432,6 +431,8 @@ footer {
 
 }
 
-@media (max-width: 768px) {
-    
+@media (max-width: 970px) {
+    .right img {
+        width: 53vw;
+    }
 }
