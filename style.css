@@ -352,9 +352,9 @@ label > i {
     justify-content: center;
 }
 
-.getin button {
+.getin .button_container a {
     background: var(--button-bg);
-    padding: 1.5rem 12.5rem;
+    padding: 1.5vw 8vw;
     border-radius: 100px;
     color: var(--button-text);
     border: none;
@@ -364,7 +364,7 @@ label > i {
     align-items: center;
 }
 
-.getin button:hover {
+.getin .button_container:hover {
     cursor: pointer;
 }
 
