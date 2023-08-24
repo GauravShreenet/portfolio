@@ -112,6 +112,8 @@ label > i {
 }
 
 .navigation {
+    display: flex;
+    gap: 1rem;
     list-style: none;
 }
 
@@ -141,6 +143,8 @@ label > i {
     --button-bg: var(--dark-button-bg);
     --button-text: var(--dark-button-text);
 }
+
+
 
 /* hero section */
 .hero-section {
@@ -453,19 +457,22 @@ footer {
     .navigation {
         display: none;
         flex-direction: column;
-        background: #333;
+        background: var(--color-dark);
         position: absolute;
-        top: 60px;
-        left: 0;
+        top: -100%;
+        left: 60vh;
         width: 100%;
-    }
-
-    .navigation.active {
-        display: flex;
+        color: var(--button-text);
+        transition: top 0.3s ease-in-out;
     }
 
     .menu-icon {
         display: flex;
+    }
+
+    #menu-toggle:checked ~ .navigation {
+        display: flex;
+        top: 10vh;
     }
     
     .left,
