@@ -439,6 +439,7 @@ footer {
 
 @media (max-width: 768px) {
     .hero {
+        padding-bottom: 2rem;
         grid-template-areas: "right"
                              "left";
     }
@@ -457,5 +458,16 @@ footer {
     .alllinks {
         flex-direction: column;
         align-items: center;
+    }
+
+    .scroll-up {
+        height: 8vw;
+        width: 8vw;
+        border-radius: 50%;
+        background: var(--color-orange);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 7vw;
     }
 }
