@@ -101,6 +101,12 @@ label > i {
     padding: 1rem 0;
 }
 
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
 #darkMode {
      display: none;
 }
@@ -444,6 +450,24 @@ footer {
                              "left";
     }
 
+    .navigation {
+        display: none;
+        flex-direction: column;
+        background: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+    }
+
+    .navigation.active {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+    
     .left,
     .right {    
         justify-content: center;
