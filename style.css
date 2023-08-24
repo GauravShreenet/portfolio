@@ -107,7 +107,8 @@ label > i {
     cursor: pointer;
 }
 
-#darkMode {
+#darkMode,
+#menu-toggle {
      display: none;
 }
 
@@ -448,6 +449,7 @@ footer {
 }
 
 @media (max-width: 768px) {
+    
     .hero {
         padding-bottom: 2rem;
         grid-template-areas: "right"
@@ -462,8 +464,9 @@ footer {
         top: -100%;
         left: 60vh;
         width: 100%;
+        z-index: 1000;
         color: var(--button-text);
-        transition: top 0.3s ease-in-out;
+        /* transition: all 2s ease-in-out; */
     }
 
     .menu-icon {
@@ -472,7 +475,10 @@ footer {
 
     #menu-toggle:checked ~ .navigation {
         display: flex;
-        top: 10vh;
+        top: 6.75vh;
+        margin: 0;
+        overflow: hidden;
+        
     }
     
     .left,
