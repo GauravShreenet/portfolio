@@ -486,6 +486,15 @@ footer {
         justify-content: center;
     
     }
+
+    .banner {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .banner .info-divider{
+        display: none;
+    }
     
     .about .container {
         flex-direction: column;
