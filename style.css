@@ -524,4 +524,9 @@ footer {
         justify-content: space-around;
         align-items: center;
     }
+
+    .scroll-up {
+        right: 2rem;
+        bottom: 4rem;        
+    }
 }
