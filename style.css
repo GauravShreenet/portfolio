@@ -220,6 +220,12 @@ label > i {
     border-radius: 100px;
 }
 
+.banner .info-first {
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
 .banner .info-first .info-divider{
     background: gray;
     width: 2px;
@@ -243,7 +249,7 @@ label > i {
     color: #fff;
 }
 
-.banner .info-content span {
+.banner .info-first .info-content span {
     font-weight: bold;
     font-size: 1.3rem;
     letter-spacing: 2px;
