@@ -212,7 +212,6 @@ label > i {
 }
 
 .banner {
-    
     margin-top: 7rem;
     border: 2px solid var(--border-color);
     padding: 2rem;
@@ -226,6 +225,8 @@ label > i {
     width: 2px;
     height: 50px;
 }
+
+
 
 .banner .info-content .icon-container {
     background: var(--color-orange);
@@ -489,7 +490,14 @@ footer {
 
     .banner {
         flex-direction: column;
+        
+    }
+
+    .banner .info-content {
         align-items: center;
+        justify-content: center;
+        
+        width: 100%;
     }
     
     .banner .info-divider{
