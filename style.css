@@ -284,7 +284,7 @@ label > i {
 }
 
 .project .project-container {
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 3rem;
 
     /* grid-template-columns: repeat(2, 1fr); */
@@ -515,5 +515,13 @@ footer {
         justify-content: center;
         align-items: center;
         font-size: 7vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .getin .button_container a {
+        font-size: 5vw;
+        justify-content: space-around;
+        align-items: center;
     }
 }
